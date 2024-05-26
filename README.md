@@ -33,7 +33,7 @@
         <li><strong>Normal User:</strong> Primarily focused on managing their own account, viewing transaction history, and performing personal account transactions.</li>
     </ul>
     
-  <h2>Project Structure</h2>
+  <h2>BackEnd Project Structure</h2>
     <h3>Data Transfer Objects (DTOs)</h3>
     <ul>
         <li><strong>AccountHistoryDTO, AccountOperationDTO, BankAccountDTO:</strong> These DTOs carry necessary data related to account transactions and operations between the server and clients.</li>
