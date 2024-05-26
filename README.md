@@ -1,8 +1,38 @@
 <h1>Backend Architecture for Digital Banking Application</h1>
-    
-  <h2>Overview</h2>
-    <p>The backend of the digital banking application is built using the Spring Framework. It is designed to handle various aspects of banking operations, emphasizing security and efficiency in data management and transaction processing.</p>
+<h2>Digital Banking Application Report</h2>
+    <h3>Overview</h3>
+    <p>This digital banking application is designed to manage bank operations securely and efficiently. It features functionalities for both administrative and regular users, supported by a robust backend built with Spring, a dynamic and responsive frontend with Angular, and enhanced security through SRTP.</p>
 
+<h3>Functionalities</h3>
+    <h3>Login Page</h3>
+    <p>The login page allows users to enter their credentials. Based on their role (admin or user), they are directed to the appropriate dashboard with functionalities tailored to their permissions.</p>
+
+<h3>Dashboard</h3>
+    <p>The main dashboard is accessible post-login and provides links to various functionalities depending on the user's role.</p>
+
+<h3>Customer Management</h3>
+    <ul>
+        <li><strong>Customer List:</strong> Displays all customers with options to edit, delete, or view detailed account information for each customer.</li>
+        <li><strong>Add Customer:</strong> Allows the creation of new customer records.</li>
+        <li><strong>Edit/Delete Customer:</strong> Admins can modify or remove existing customer details.</li>
+    </ul>
+
+<h3>Account Operations</h3>
+    <ul>
+        <li><strong>Perform Transaction:</strong> Allows the user to perform debit, credit, or transfer operations between accounts.</li>
+        <li><strong>Account Details:</strong> Users can search for specific accounts to view transaction history and account balances.</li>
+    </ul>
+
+<h3>Security and Data Protection</h3>
+    <p>The application uses Secure Real-time Transport Protocol (SRTP) to enhance the security of data transmission, ensuring that all user data and financial transactions are encrypted and secure against unauthorized access.</p>
+
+<h3>Roles and Permissions</h3>
+    <p>There are two primary roles in the application:</p>
+    <ul>
+        <li><strong>Admin:</strong> Can manage customers, perform transactions on behalf of customers, view all accounts, and access comprehensive administrative tools.</li>
+        <li><strong>Normal User:</strong> Primarily focused on managing their own account, viewing transaction history, and performing personal account transactions.</li>
+    </ul>
+    
   <h2>Project Structure</h2>
     <h3>Data Transfer Objects (DTOs)</h3>
     <ul>
