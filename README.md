@@ -1,7 +1,7 @@
 <h1>Backend Architecture for Digital Banking Application</h1>
 <h2>Digital Banking Application </h2>
     <h3>Overview</h3>
-    <p>This digital banking application is designed to manage bank operations securely and efficiently. It features functionalities for both administrative and regular users, supported by a robust backend built with Spring, a dynamic and responsive frontend with Angular, and enhanced security through SRTP.</p>
+    <p>This digital banking application is designed to manage bank operations securely and efficiently. It features functionalities for both administrative and regular users, supported by a robust backend built with Spring, a dynamic and responsive frontend with Angular, and enhanced security through JWT.</p>
 
 <h3>Functionalities</h3>
     <h3>Login Page</h3>
